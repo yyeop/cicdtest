@@ -74,8 +74,8 @@ htuxfB12vlPZAlXUVZriRScRQYZzif04FctQ0nOPsvUEyyqCayXAuhr0X0CgaWhP6cklSl
 7AmVXcnTaz5z+KFPihMb0w6Q5bB1jyHpt5SsZLAXZOeODeveu/YD8PpEnwRI8FxqeP+291
 x+o+tj5XXVhqqaBMvYkovyOr9gamU0+UhhbJMCGPdf8zx6XITiXkUFsyMqYA4fivHxMCCw
 n0ZudiD7VR4OTBAAAAFXl1bnllb3Bib3QxQGdtYWlsLmNvbQECAwQF
-        port: 22
-        script: ./deploy.sh
+      port: 22
+      script: ./deploy.sh
           
     
     
