@@ -41,4 +41,3 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         port: 22
         script: ./deploy.sh
-
