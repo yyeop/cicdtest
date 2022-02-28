@@ -31,6 +31,16 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: Deploy test
+    - name: Deploy ready
       run: echo deploy!!
+    - name: Deploy
+      uses: appleboy/ssh-action@master
+      with:
+        host: 34.125.52.47
+        username: yunyeopbot1
+        key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDKRU4l7BolZ2ZCEs9xCOI++losi1aIC4/X/DM+O1z1Q1PtSP6099xh6Y4DIvjxNw0SVcHAAIgcop2yXyIqRcgBdLgx28kcPI3DZ5MtNz+vh+B/fMWTdNsLfcM5XpiS0Fvj9gVyOEOE0a2gYWr518AV1hMywBV28tKFvw/KEd109tH6zlzZ9Jx3brT4NsvQZBOpn4DT3Wkvs4bWLH/i4Efx4J92EbqQnJ/wobpi/c1Yn+H3k8NNV7g7unbnB0yE2lSTengX32ud9qk1Hv31H62n7gVc0cl0K/zCxrTI/uuVONnO/AAgmdmMMHNeliPMe80up63Kqv9MPrQHaCHOjaSK4QS0MyQDDjfSvW4vlYeO/kKa4AhvJTjhbTkapnPymt/zY/RNsv89uc/bg7kMZ5TdA8ohlxy4bzgcU9kFGZ/CbrBKN9+E9NAC3O+lo2aSDRy1OD1EqD4h2yZk3oYanFZwLM40Ky7M+ph63mGkHbWRRpe32Et0yhFJkXt83OSslbM= yunyeopbot1@gmail.com
+        port: 22
+        script: ./deploy.sh
+          
+    
     
