@@ -38,6 +38,6 @@ jobs:
       with:
         host: 34.125.52.47
         username: yunyeopbot1
-        key: ${{ secrets.ssh_key }}
+        key: ${{ secrets.SSH_KEY }}
         port: 22
         script: ./deploy.sh
