@@ -8,6 +8,7 @@ public class TestController {
 
     @GetMapping
     public String test() {
-        return "진짜 마지막ㅎ";
+        return "진짜 마지막";
     }
 }
+
