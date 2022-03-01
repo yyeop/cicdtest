@@ -41,4 +41,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         port: 22
         script: |
-          echo "success"
+          echo "ready"
+          ./deploy.sh
+          echo "finish"
+
