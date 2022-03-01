@@ -43,6 +43,6 @@ jobs:
         script: |
           echo "ready"
           nohup ./deploy.sh &
-    - name: Deploy finish
+    - name: Deploy finish!
       run: echo finish!!
 
