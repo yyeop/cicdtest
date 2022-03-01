@@ -38,7 +38,6 @@ jobs:
       with:
         host: 34.125.52.47
         username: yunyeopbot1
-        command_timeout: 1m
         key: ${{ secrets.SSH_KEY }}
         port: 22
         script: |
