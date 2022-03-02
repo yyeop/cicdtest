@@ -40,9 +40,7 @@ jobs:
         username: yunyeopbot1
         key: ${{ secrets.SSH_KEY }}
         port: 22
-        script: |
-          echo "ready"
-          nohup ./deploy.sh &
+        script: ./deploy.sh
     - name: Deploy finish!
       run: echo finish!!
 
